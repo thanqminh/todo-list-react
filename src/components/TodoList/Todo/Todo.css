@@ -1,0 +1,20 @@
+.Todo {
+  padding: 5px;
+}
+
+.Todo input:checked + span {
+  text-decoration: line-through;
+}
+
+.Todo span {
+  font-weight: normal;
+}
+
+.DeleteTodo {
+  color: red;
+  float: right;
+}
+
+.DeleteTodo:hover {
+  cursor: pointer;
+}

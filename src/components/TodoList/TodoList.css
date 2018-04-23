@@ -1,0 +1,16 @@
+.TodoList {
+  width: 80%;
+  margin: auto;
+  height: 250px;
+  overflow: scroll;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.TodoList ul {
+  padding-left: 10px;
+}
+
+.TodoList ul li {
+  list-style: none;
+}

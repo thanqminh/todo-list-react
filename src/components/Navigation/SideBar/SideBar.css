@@ -1,3 +1,20 @@
 .SideBar {
-  width: 20%;
+  max-width: 20%;
+  float: left;
+  display: inline-block;
+}
+.SideBar div {
+  padding: 0 0 0 10px;
+}
+.SideBar ul {
+  padding: 10px;
+}
+.SideBar ul li {
+  background: #b8e6ff;
+  list-style: none;
+  padding: 10px;
+  color: #1f47cb;
+}
+.SideBar ul li:hover {
+  cursor: pointer;
 }
